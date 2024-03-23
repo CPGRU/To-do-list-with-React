@@ -1,0 +1,27 @@
+### Get a lists
+
+GET http://localhost:3001/lists HTTP/1.1
+Content-Type: application/json
+
+### Create a lists
+
+POST http://localhost:3001/lists HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "testing"
+}
+
+### Update a lists
+
+PUT http://localhost:3001/lists/c71e HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "changed"
+}
+
+### Delete a lists
+
+DELETE http://localhost:3001/lists/c71e HTTP/1.1
+Content-Type: application/json
